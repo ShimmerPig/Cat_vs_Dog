@@ -64,8 +64,7 @@ reshape = tf.reshape(pool2, shape=[batch_size, -1])
                                  dtype=tf.float32,  
                                  initializer=tf.constant_initializer(0.1))  
         softmax_linear = tf.add(tf.matmul(local4, weights), biases, name='softmax_linear')  
-  
-    return softmax_linear </br>
+   return softmax_linear </br>
 2.5计算误差</br>
 这里我们使用了sparse_softmax_cross_entropy_with_logits，并且利用交叉熵损失函数来定义我们的cost function。
 def losses(logits, labels):  
