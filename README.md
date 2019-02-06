@@ -1,4 +1,4 @@
-# 用人话跟你讲TensorFlow猫狗二分类</br>
+# TensorFlow猫狗二分类</br>
 代码详解：</br>
 </br>
 1.处理数据</br>
